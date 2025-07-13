@@ -8,8 +8,8 @@ poetry run get-papers-list --query "cancer therapy" -f output.csv
 -  Extracts corresponding author email addresses
 -  Saves results in a clean CSV format
 🛠 CLI Options
-Option	Description
---query	🔹 Required. Search term (e.g., "cancer")
+🔹Option	Description
+--query	 Required. Search term (e.g., "cancer")
 --file, -f	Optional. Output CSV file name
 --debug, -d	Show debug output during fetch and parse
 --help	Show CLI help info
